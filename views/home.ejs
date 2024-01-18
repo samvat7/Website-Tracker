@@ -1,0 +1,17 @@
+<div>
+    Hello World 
+
+
+    <ul>
+        <% for(let tracker of trackers){ %>
+            <li>
+                <h5>URL:</h5>
+                <p><%= tracker.url %></p>
+                <h5>Interval:</h5>
+                <p><%= tracker.interval %></p>
+                <h5>ID: </h5>
+                <p><%= tracker.id %></p>
+            </li>
+        <% } %>    
+    </ul>
+</div>
